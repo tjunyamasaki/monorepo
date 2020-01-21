@@ -1,10 +1,14 @@
 {
-  "name": "test-component-pack-1",
+  "name": "@tjunyamasaki/test-component-pack-1",
   "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjunyamasaki/monorepo.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -16,5 +20,5 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
-  "gitHead": "4bcbb93486842f3eb50c540713cd16cac4a3be2f"
+  "gitHead": "a80c4137e584ebcb215ad9d3391ba0928200456e"
 }

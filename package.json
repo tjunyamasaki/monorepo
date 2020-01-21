@@ -13,6 +13,9 @@
     "url": "https://github.com/tjunyamasaki/monorepo/issues"
   },
   "homepage": "https://github.com/tjunyamasaki/monorepo#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "lerna exec npm run \"build\" ",
