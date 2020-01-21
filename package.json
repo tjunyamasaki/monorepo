@@ -19,7 +19,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "lerna exec npm run \"build\" ",
-    "publish": "lerna publish"
+    "release": "lerna publish"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
